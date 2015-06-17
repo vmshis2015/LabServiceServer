@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDepartmentVNIOxsd" targetNamespace="http://tempuri.org/dsDepartmentVNIOxsd.xsd" xmlns:mstns="http://tempuri.org/dsDepartmentVNIOxsd.xsd" xmlns="http://tempuri.org/dsDepartmentVNIOxsd.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDepartmentVNIOxsd" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsDepartmentVNIOxsd" msprop:Generator_DataSetName="dsDepartmentVNIOxsd" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtDepartment" msprop:Generator_UserTableName="dtDepartment" msprop:Generator_RowDeletedName="dtDepartmentRowDeleted" msprop:Generator_RowChangedName="dtDepartmentRowChanged" msprop:Generator_RowClassName="dtDepartmentRow" msprop:Generator_RowChangingName="dtDepartmentRowChanging" msprop:Generator_RowEvArgName="dtDepartmentRowChangeEvent" msprop:Generator_RowEvHandlerName="dtDepartmentRowChangeEventHandler" msprop:Generator_TableClassName="dtDepartmentDataTable" msprop:Generator_TableVarName="tabledtDepartment" msprop:Generator_RowDeletingName="dtDepartmentRowDeleting" msprop:Generator_TablePropName="dtDepartment">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Patient_Name" msprop:Generator_UserColumnName="Patient_Name" msprop:Generator_ColumnPropNameInRow="Patient_Name" msprop:Generator_ColumnVarNameInTable="columnPatient_Name" msprop:Generator_ColumnPropNameInTable="Patient_NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="idKhoa" msprop:Generator_UserColumnName="idKhoa" msprop:Generator_ColumnPropNameInRow="idKhoa" msprop:Generator_ColumnVarNameInTable="columnidKhoa" msprop:Generator_ColumnPropNameInTable="idKhoaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="khoa" msprop:Generator_UserColumnName="khoa" msprop:Generator_ColumnPropNameInRow="khoa" msprop:Generator_ColumnVarNameInTable="columnkhoa" msprop:Generator_ColumnPropNameInTable="khoaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="idBacSydieutri" msprop:Generator_UserColumnName="idBacSydieutri" msprop:Generator_ColumnPropNameInRow="idBacSydieutri" msprop:Generator_ColumnVarNameInTable="columnidBacSydieutri" msprop:Generator_ColumnPropNameInTable="idBacSydieutriColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Bacsydieutri" msprop:Generator_UserColumnName="Bacsydieutri" msprop:Generator_ColumnPropNameInRow="Bacsydieutri" msprop:Generator_ColumnVarNameInTable="columnBacsydieutri" msprop:Generator_ColumnPropNameInTable="BacsydieutriColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TestType_Name" msprop:Generator_UserColumnName="TestType_Name" msprop:Generator_ColumnPropNameInRow="TestType_Name" msprop:Generator_ColumnVarNameInTable="columnTestType_Name" msprop:Generator_ColumnPropNameInTable="TestType_NameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,1 @@
+ // The class TblTestTypeMapping was not generated because tbl_TestTypeMapping does not have a primary key.

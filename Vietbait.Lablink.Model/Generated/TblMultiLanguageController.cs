@@ -1,0 +1,1 @@
+ // The class TblMultiLanguageController was not generated because tbl_MultiLanguage does not have a primary key.

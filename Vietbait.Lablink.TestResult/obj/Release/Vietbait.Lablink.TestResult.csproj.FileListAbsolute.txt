@@ -1,0 +1,13 @@
+E:\VBIT\LABlinkVer2New\trunk\Library\Vietbait.Lablink.TestResult.dll
+E:\VBIT\LABlinkVer2New\trunk\Library\Vietbait.Lablink.TestResult.pdb
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.TestResult\obj\Release\Vietbait.Lablink.TestResult.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.TestResult\obj\Release\Vietbait.Lablink.TestResult.pdb
+D:\Sys\Prj\trunk\Library\Vietbait.Lablink.TestResult.dll
+D:\Sys\Prj\trunk\Library\Vietbait.Lablink.TestResult.pdb
+D:\Sys\Prj\trunk\Vietbait.Lablink.TestResult\obj\Release\Vietbait.Lablink.TestResult.dll
+D:\Sys\Prj\trunk\Vietbait.Lablink.TestResult\obj\Release\Vietbait.Lablink.TestResult.pdb
+D:\Setup\FullS\trunk\Library\Vietbait.Lablink.TestResult.dll
+D:\Setup\FullS\trunk\Library\Vietbait.Lablink.TestResult.pdb
+D:\Setup\FullS\trunk\Vietbait.Lablink.TestResult\obj\Release\Vietbait.Lablink.TestResult.csprojResolveAssemblyReference.cache
+D:\Setup\FullS\trunk\Vietbait.Lablink.TestResult\obj\Release\Vietbait.Lablink.TestResult.dll
+D:\Setup\FullS\trunk\Vietbait.Lablink.TestResult\obj\Release\Vietbait.Lablink.TestResult.pdb

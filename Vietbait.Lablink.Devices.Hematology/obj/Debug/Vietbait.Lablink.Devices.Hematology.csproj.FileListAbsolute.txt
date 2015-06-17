@@ -1,0 +1,5 @@
+E:\VBIT\LABlinkVer2New\trunk\debug\Vietbait.Lablink.Devices.Hematology.dll
+E:\VBIT\LABlinkVer2New\trunk\debug\Vietbait.Lablink.Devices.Hematology.pdb
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Devices.Hematology\obj\Debug\Vietbait.Lablink.Devices.Hematology.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Devices.Hematology\obj\Debug\Vietbait.Lablink.Devices.Hematology.pdb
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Devices.Hematology\obj\Debug\Vietbait.Lablink.Devices.Hematology.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Notifier\bin\Debug\Vietbait.Lablink.Notifier.exe
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Notifier\bin\Debug\Vietbait.Lablink.Notifier.pdb
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Notifier\obj\Debug\Vietbait.Lablink.Notifier.csprojResolveAssemblyReference.cache
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Notifier\obj\Debug\Vietbait.Lablink.Notifier.AboutBox.resources
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Notifier\obj\Debug\Vietbait.Lablink.Notifier.FrmConfig.resources
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Notifier\obj\Debug\Vietbait.Lablink.Notifier.Properties.Resources.resources
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Notifier\obj\Debug\Vietbait.Lablink.Notifier.csproj.GenerateResource.Cache
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Notifier\obj\Debug\Vietbait.Lablink.Notifier.exe
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Notifier\obj\Debug\Vietbait.Lablink.Notifier.pdb

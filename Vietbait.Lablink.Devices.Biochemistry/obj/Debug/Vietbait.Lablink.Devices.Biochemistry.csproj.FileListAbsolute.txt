@@ -1,0 +1,10 @@
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Devices.Biochemistry\obj\Debug\Vietbait.Lablink.Devices.Biochemistry.csprojResolveAssemblyReference.cache
+E:\VBIT\LABlinkVer2New\trunk\debug\Vietbait.Lablink.Devices.Biochemistry2.dll
+E:\VBIT\LABlinkVer2New\trunk\debug\Vietbait.Lablink.Devices.Biochemistry2.pdb
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Devices.Biochemistry\obj\Debug\Vietbait.Lablink.Devices.Biochemistry2.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Devices.Biochemistry\obj\Debug\Vietbait.Lablink.Devices.Biochemistry2.pdb
+D:\Setup\FullS\trunk\debug\Vietbait.Lablink.Devices.Biochemistry2.dll
+D:\Setup\FullS\trunk\debug\Vietbait.Lablink.Devices.Biochemistry2.pdb
+D:\Setup\FullS\trunk\Vietbait.Lablink.Devices.Biochemistry\obj\Debug\Vietbait.Lablink.Devices.Biochemistry.csprojResolveAssemblyReference.cache
+D:\Setup\FullS\trunk\Vietbait.Lablink.Devices.Biochemistry\obj\Debug\Vietbait.Lablink.Devices.Biochemistry2.dll
+D:\Setup\FullS\trunk\Vietbait.Lablink.Devices.Biochemistry\obj\Debug\Vietbait.Lablink.Devices.Biochemistry2.pdb

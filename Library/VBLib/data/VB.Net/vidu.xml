@@ -1,0 +1,529 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Vidu>
+    <MaVD>V00000</MaVD>
+    <NoiDung>Không có.</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>V00001</MaVD>
+    <NoiDung>' Visual Basic 6.0 
+Dim i As Integer
+For i = 0 To Screen.FontCount – 1
+   List1.AddItem Screen.Fonts(i)
+Next i
+
+' Visual Basic 2005 
+Dim ff As FontFamily
+For Each ff In System.Drawing.FontFamily.Families
+  listBox1.Items.Add(ff.Name)
+Next</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>V00003</MaVD>
+    <NoiDung>'Hàm tạo 1 mảng các Label
+    Private Sub CreateControl()
+        Dim i As Byte
+        Dim lb As Label
+
+        For i = 0 To 10
+            lb = New Label
+            'Đăng ký sự kiện cho label mới tạo
+            AddHandler lb.Click, AddressOf Me.Label_Clicked
+            'Định vị trí
+            lb.Location = New Point(i * 49, 0)
+            lb.BackColor = Color.LightGreen
+            lb.Height = 50
+            lb.Width = 50
+            lb.TextAlign = ContentAlignment.MiddleCenter
+            lb.BorderStyle = BorderStyle.FixedSingle
+            lb.Text = i.ToString()
+            lb.Name = "label" + i.ToString()
+            Me.Controls.Add(lb)
+        Next i
+    End Sub
+
+    'Khi click vào Label thì hàm này sẽ được gọi
+    Private Sub Label_Clicked(ByVal sender As Object, ByVal e As System.EventArgs)
+        'Dim i As Integer
+        'For i = 0 To Me.Controls.Count - 1
+        '    'Tìm và đổi màu tất cả control nào có tên chứa chữ "label"
+        '    If Me.Controls(i).Name.IndexOf("label") &gt;= 0 Then
+        '        Me.Controls(i).ForeColor = Color.Red
+        '    End If
+        'Next i
+
+        Dim lb As Label
+        lb = sender
+	MsgBox("Bạn đã click vào " &amp; lb.Name)
+
+    End Sub</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>V00004</MaVD>
+    <NoiDung>'lấy user name bằng API:
+Declare Function GetUserName Lib "advapi32.dll" Alias _ 
+       "GetUserNameA" (ByVal lpBuffer As String, _ 
+       ByRef nSize As Integer) As Integer 
+
+   Public Function GetUserName() As String 
+       Dim iReturn As Integer 
+       Dim userName As String 
+       userName = New String(CChar(" "), 50) 
+       iReturn = GetUserName(userName, 50) 
+       GetUserName = userName.Substring(0, userName.IndexOf(Chr(0))) 
+   End Function
+
+'hoặc dùng .Net chính hiệu:
+Imports System 
+
+Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load 
+        MsgBox("Username: " &amp; Environment.UserName) 
+End Sub</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>V00005</MaVD>
+    <NoiDung>Dim a As String = "Nguyen Ngoc Huy " 
+a = System.Text.RegularExpressions.Regex.Replace(a, "\s+", " ").Trim 
+' a ="Nguyen Ngoc Huy"</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>V00006</MaVD>
+    <NoiDung>Private Function GetDuration(ByVal timeStart As DateTime) As String 
+
+        Dim timeElapsed As New TimeSpan(0) 
+        Dim timeEnd As DateTime 
+        Dim timeDifference As New TimeSpan 
+
+        timeEnd = DateTime.Now() 
+        timeDifference = timeEnd.Subtract(timeStart) 
+        timeElapsed = timeElapsed.Add(timeDifference) 
+        Return timeElapsed.ToString() 
+
+End Function 
+
+'Lấy time thực hiện một số câu lệnh 
+
+Implementation 
+
+Dim timeStart As DateTime 
+
+timeStart = DateTime.Now() 
+
+' các câu lệnh làm chuyện gì đó 
+
+Me.lblDuration.Text = GetDuration(timeStart)</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>V00007</MaVD>
+    <NoiDung> Public Declare Function GetSystemMenu Lib "user32" (ByVal hwnd As Integer, ByVal bRevert As Integer) As Integer 
+    Public Declare Function RemoveMenu Lib "user32" (ByVal hMenu As Integer, ByVal nPosition As Integer, ByVal wFlags As Integer) As Integer 
+    Public Const SC_CLOSE = &amp;HF060&amp; 
+    Public Const MF_BYCOMMAND = &amp;H0&amp; 
+    Function RemoveXButton(ByVal iHWND As Integer) As Integer 
+    Dim iSysMenu As Integer 
+    iSysMenu = GetSystemMenu(iHWND, False) 
+    Return RemoveMenu(iSysMenu, SC_CLOSE, MF_BYCOMMAND) 
+    End Function 
+    'Disable the button on the current form: 
+    RemoveXButton(ActiveForm.Handle().ToInt32())</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>V00008</MaVD>
+    <NoiDung>Public Function FormatSize(ByVal RawData As Long) As String 
+        If RawData &gt; 1048576 Then 
+            Return Format(RawData / 1048576, "#.## MB") 
+        End If 
+        If RawData &gt; 1024 Then 
+            Return CStr(RawData \ 1024) + " KB" 
+        End If 
+        Return CStr(RawData) + " bytes" 
+End Function 
+
+Implementation 
+
+Dim fs As System.IO.Stream 
+
+fs = myDialog.OpenFile() 
+Me.lblSize.Text = FormatSize(fs.Length)</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>V00009</MaVD>
+    <NoiDung>VB.NET 
+Code: 
+' Lấy khoảng cách giữa 2 năm 
+Dim years As Integer = DateTime.Now.Year - BirthDate.Year 
+' Trừ lại 1 tuổi nếu tháng hiện tại nhỏ hơn tháng sinh nhật 
+If DateTime.Now.Month &lt; BirthDate.Month _ 
+                  Or (DateTime.Now.Month = BirthDate.Month And DateTime.Now.Day &lt; BirthDate.Day) Then 
+    years = years - 1 
+End If  
+
+
+C# 
+Code: 
+// Lấy khoảng cách giữa 2 năm 
+int years = DateTime.Now.Year - BirthDate.Year; 
+// Trừ lại 1 tuổi nếu tháng hiện tại nhỏ hơn tháng sinh nhật 
+if (DateTime.Now.Month &lt; BirthDate.Month || 
+    (DateTime.Now.Month == BirthDate.Month &amp; 
+    DateTime.Now.Day &lt; BirthDate.Day)) 
+    years--; 
+
+//hoặc
+
+DateTime t1; 
+DateTime t2; 
+
+TimeSpan ts = t2 - t1; 
+int tuoi = (ts.Month - (ts.Month % 12)) /12;</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>V00010</MaVD>
+    <NoiDung>Public strEx As String = "mp3,wma,wav,mid,midi,wmv,avi,mpg,mpeg,vob,dat,asf,m1v,mp2,mp4,mkv"
+
+    Public Sub FindFiles(ByVal Lst1 As ListBox, ByVal Lst2 As ListBox, ByVal DirName As String, ByVal SubFolder As Boolean)
+        Dim strFileName As String
+        Dim strFileEx As String
+
+        For Each strFileName In System.IO.Directory.GetFiles(DirName, "*.*", IIf(SubFolder = True, IO.SearchOption.AllDirectories, IO.SearchOption.TopDirectoryOnly))
+            strFileEx = Mid(strFileName, InStrRev(strFileName, ".") + 1)
+            If strEx.IndexOf(strFileEx) &lt;&gt; -1 Then
+                Lst2.Items.Add(strFileName)
+                Lst1.Items.Add(Mid(strFileName, InStrRev(strFileName, "\") + 1))
+            End If
+        Next
+    End Sub</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>V00012</MaVD>
+    <NoiDung>Public Class Form1
+    Const CS_DROPSHADOW = &amp;H20000
+    Protected Overrides ReadOnly Property CreateParams() As System.Windows.Forms.CreateParams
+        Get
+            Dim parameters As CreateParams = MyBase.CreateParams
+            parameters.ClassStyle = parameters.ClassStyle Or CS_DROPSHADOW
+            Return parameters
+        End Get
+    End Property
+End Class</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>V00013</MaVD>
+    <NoiDung>'Cần thêm vào form 2 button
+Imports System.Management
+
+Public Class Form1
+    Public Enum ShutDown
+        LogOff = 0
+
+        Shutdown = 1
+
+        Reboot = 2
+
+        ForcedLogOff = 4
+
+        ForcedShutdown = 5
+
+        ForcedReboot = 6
+
+        PowerOff = 8
+
+        ForcedPowerOff = 12
+    End Enum
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        System.Diagnostics.Process.Start("Shutdown", "-s -t 10")
+    End Sub
+
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+
+        Dim W32_OS As New ManagementClass("Win32_OperatingSystem")
+
+        Dim inParams, outParams As ManagementBaseObject
+
+        Dim result As Integer
+
+        W32_OS.Scope.Options.EnablePrivileges = True
+        Dim obj As ManagementObject
+        For Each obj In W32_OS.GetInstances()
+
+            inParams = obj.GetMethodParameters("Win32Shutdown")
+
+            inParams("Flags") = ShutDown.ForcedShutdown
+
+            inParams("Reserved") = 0
+
+            outParams = obj.InvokeMethod("Win32Shutdown", inParams, Nothing)
+
+            result = Convert.ToInt32(outParams("returnValue"))
+
+            If result &lt;&gt; 0 Then Throw New System.ComponentModel.Win32Exception(result)
+
+        Next
+
+    End Sub
+End Class</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>075616015603</MaVD>
+    <NoiDung>Imports System.Runtime.InteropServices
+
+Public Class Form1
+
+    ' API call to get the current window layout
+    &lt;DllImport("user32.dll", EntryPoint:="GetWindowLongA", _
+    ExactSpelling:=True, CallingConvention:=CallingConvention.StdCall)&gt; _
+    Public Shared Function GetWindowLong( _
+        ByVal hwnd As IntPtr, _
+        ByVal nIndex As Int32) As Int32
+    End Function
+
+    ' API call to set the window layout
+    &lt;DllImport("user32.dll", EntryPoint:="SetWindowLongA", _
+    ExactSpelling:=True, CallingConvention:=CallingConvention.StdCall)&gt; _
+    Private Shared Function SetWindowLong( _
+        ByVal hwnd As IntPtr, _
+        ByVal nIndex As Int32, _
+        ByVal dwNewLong As Int32) As Int32
+    End Function
+
+    ' API call to make the window transpairent
+    &lt;DllImport("user32.dll", EntryPoint:="SetLayeredWindowAttributes", _
+    ExactSpelling:=True, CallingConvention:=CallingConvention.StdCall)&gt; _
+    Private Shared Function SetLayeredWindowAttributes( _
+        ByVal hwnd As IntPtr, _
+        ByVal crKey As Int32, _
+        ByVal bAlpha As Byte, _
+        ByVal dwFlags As Int32) As Int32
+    End Function
+
+    Const LWA_COLORKEY As Integer = 1
+    Const LWA_ALPHA As Integer = 2
+    Const GWL_EXSTYLE As Integer = -20
+    Const WS_EX_LAYERED As Integer = &amp;H80000
+
+    Public Sub SetTransparentForm(ByVal hwnd As IntPtr)
+
+        Dim rtn As Integer = GetWindowLong(hwnd, GWL_EXSTYLE)
+
+        rtn = rtn Or WS_EX_LAYERED
+
+        SetWindowLong(hwnd, GWL_EXSTYLE, rtn)
+
+        SetLayeredWindowAttributes(hwnd, 0, 200, LWA_ALPHA)
+    End Sub
+
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        SetTransparentForm(Me.Handle)
+    End Sub
+End Class</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>V00011</MaVD>
+    <NoiDung>      Thang = txtThang.Text
+      Nam = txtNam.Text
+      Dim dd1 As Date
+      Dim Songaydilam As Integer 
+      If IsDate(Thang &amp; "/" &amp; 1 &amp; "/" &amp; Nam) Then
+      ' Kiểm tra sự hợp lệ của Tháng, Năm
+
+           dd1 = CDate(Thang &amp; "/" &amp; 1 &amp; "/" &amp; Nam) 
+               
+           Dim i As Integer = 0
+
+           Dim j As Integer
+
+         For j = 1 To dd1.DaysInMonth(dd1.Year, dd1.Month) 
+         'Kiểm tra T7, cn
+            If ((j + dd1.DayOfWeek) Mod 7 = 0) Or ((j + dd1.DayOfWeek) Mod 7 = 1) Then
+                i += 1
+            End If
+         Next
+
+                Songaytinhluong = dd1.DaysInMonth(dd1.Year, dd1.Month) - i
+       End If</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>072508012516</MaVD>
+    <NoiDung>VB.Net
+'cho Windows khởi động chế độ Stand by ngay lập tức
+Application.SetSuspendState(PowerState.Suspend, False, False)
+'nếu muốn khởi động Hibernate gõ dòng sau:
+Application.SetSuspendState(PowerState.Hibernate, False, False)
+
+C#
+// cho Windows khởi động chế độ Stand by ngay lập tức
+Application.SetSuspendState(PowerState.Suspend, false,false);
+ 
+// nếu muốn khởi động Hibernate gõ dòng sau:
+Application.SetSuspendState(PowerState.Hibernate, false,false);</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>070109030143</MaVD>
+    <NoiDung>Dim ThisMoment As Date
+' Lấy thời gian hiện tại của hệ thống.
+ThisMoment = Now
+MsgBox(ThisMoment)</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>072209032222</MaVD>
+    <NoiDung>Dim currentTime As Date
+'Lấy giờ hệ thống
+currentTime = TimeOfDay
+MsgBox("Giờ hiện tại: " &amp; currentTime)
+'Đặt lại giờ hệ thống là 12:00:00
+TimeOfDay = "12:00:00"
+MsgBox("Đã đổi giờ hệ thống thành: " &amp; TimeOfDay)
+'Trả lại giờ hệ thống cũ
+TimeOfDay = currentTime</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>V00002</MaVD>
+    <NoiDung>Dim d As New Date(2007, 5, 5)
+'Thay đổi ngày hệ thống thành 5/5/2007
+Today = d
+'Lấy ngày hệ thống hiện tại
+Dim s as String
+s = DateString
+MessageBox.Show("Đã thay đổi ngày hệ thống =" &amp; s) </NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>075709035710</MaVD>
+    <NoiDung>Dim NextMonth, NextYear As Date
+NextMonth = DateAdd(DateInterval.Month, 1, #1/31/1995#)	'Trả về ngày 28/02/1995
+NextMonth = DateAdd(DateInterval.Month, 1, #1/31/1996#)	'Trả về ngày 29/02/1996
+NextYear = DateAdd(DateInterval.Year, -2, Now)	'Giảm thời gian hiện tại 2 năm</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>073009043023</MaVD>
+    <NoiDung>' The following statements set datTim1 to a Thursday
+' and datTim2 to the following Tuesday.
+Dim datTim1 As Date = #1/4/2001#
+Dim datTim2 As Date = #1/9/2001#
+
+'= 0 vì khoảng cách giữa datTim1 và datTim2 chưa tới 7 ngày
+Dim wD As Long = DateDiff(DateInterval.Weekday, datTim1, datTim2)
+
+'= 1 vì lấy ngày Chủ Nhật là ngày bắt đầu của tuần
+Dim wY2 As Long = DateDiff(DateInterval.WeekOfYear, datTim1, datTim2)
+'= 0 vì lấy ngày thứ 4 là ngày bắt đầu của tuần
+Dim wY1 As Long = DateDiff(DateInterval.WeekOfYear, datTim1, datTim2, FirstDayOfWeek.Wednesday)
+
+'----------------------------------
+
+Dim firstDate, msg As String
+Dim secondDate As Date
+firstDate = InputBox("Enter a date")
+secondDate = CDate(firstDate)
+msg = "Days from today: " &amp; DateDiff(DateInterval.Day, Now, secondDate)
+MsgBox(msg)</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>070809050810</MaVD>
+    <NoiDung>Dim FirstDate, Msg As String   'Declare variables.
+Dim SecondDate As Date
+FirstDate = InputBox("Enter a date:")
+SecondDate = CDate(FirstDate)
+Msg = "Day: " &amp; DatePart(DateInterval.Day, SecondDate)
+Msg += " Month: " &amp; DatePart(DateInterval.Month, SecondDate)
+Msg += " Year: " &amp; DatePart(DateInterval.Year, SecondDate)</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>072309052300</MaVD>
+    <NoiDung>Dim EndFeb As Date = DateSerial(-10, 3, 0) 'Trả về cuối tháng 2 cách đây 10 năm
+Dim MyDate As Date = DateSerial(1969, 2, 12) ' MyDate contains the date for February 12, 1969.</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>072809052807</MaVD>
+    <NoiDung>Dim oldDate As Date
+oldDate = DateValue("February 12, 1969") 'Trả về 2/12/1969</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>073209053220</MaVD>
+    <NoiDung>Dim thisMonth As Integer
+Dim name As String
+thisMonth = 4
+' Set Abbreviate to True to return an abbreviated name.
+name = MonthName(thisMonth, True)
+' name now contains "Apr".</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>073609053629</MaVD>
+    <NoiDung>Dim oldDate As Date
+Dim oldWeekDayName As String
+oldDate = #2/12/1969#
+oldWeekDayName = WeekdayName(Weekday(oldDate))
+' oldWeekDayName now contains "Wednesday".</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>074209054201</MaVD>
+    <NoiDung>Dim thisTime As Date = TimeSerial(16, 35, 17) '4:35:17 PM
+Dim alarmTime As Date = TimeSerial(12 - 3, -15, 0) '8:45:00 AM</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>074409054419</MaVD>
+    <NoiDung>Dim thisTime As Date
+thisTime = TimeValue("4:35:17 PM") ' Returns 4:35:17 PM</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>074909054941</MaVD>
+    <NoiDung>MsgBox("The current time is " &amp; TimeString)</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>070009060002</MaVD>
+    <NoiDung>Public Sub waitFiveSeconds()
+ If TimeOfDay &gt;= #11:59:55 PM# Then
+  MsgBox("The current time is within 5 seconds of midnight" &amp; _
+   vbCrLf &amp; "The timer returns to 0.0 at midnight")
+  Return
+ End If
+ Dim start, finish, totalTime As Double
+ If (MsgBox("Press Yes to pause for 5 seconds", MsgBoxStyle.YesNo)) _
+  = MsgBoxResult.Yes Then
+  start = Microsoft.VisualBasic.DateAndTime.Timer
+  ' Set end time for 5-second duration.
+  finish = start + 5.0
+  Do While Microsoft.VisualBasic.DateAndTime.Timer &lt; finish
+  ' Do other processing while waiting for 5 seconds to elapse.
+  Loop
+  totalTime = Microsoft.VisualBasic.DateAndTime.Timer - start
+  MsgBox("Paused for " &amp; totalTime &amp; " seconds")
+ End If
+End Sub</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>075112115139</MaVD>
+    <NoiDung>Dim notepadID As Integer
+' AppActivate có thể sử dụng kết quả trả về của hàm Shell.
+' Dùng hàm Shell mở Notepad.
+notepadID = Shell("NOTEPAD.EXE", AppWinStyle.NormalFocus)
+' Activate cửa sổ Notepad đang mở qua tiêu đề.
+AppActivate("Untitled - Notepad")
+' Activate cửa sổ Notepad đang mở qua process ID.  
+AppActivate(notepadID)</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>113123083147</MaVD>
+    <NoiDung>public void show(int i)
+{
+messagebox.show(i.tostring());
+}</NoiDung>
+  </Vidu>
+  <Vidu>
+    <MaVD>115423115430</MaVD>
+    <NoiDung>private void frmDemo_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                Utilities.UI.FillDataToCombobox(comboBox1, LRS232.Schema.Name, LRS232.Columns.Name,
+                                                LRS232.Columns.Id,"--- Chọn ----","-1");
+                
+                Utilities.UI.FillDataToCombobox(comboBox1, LRS232.Schema.Name, LRS232.Columns.Name,LRS232.Columns.Id);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }</NoiDung>
+  </Vidu>
+</NewDataSet>

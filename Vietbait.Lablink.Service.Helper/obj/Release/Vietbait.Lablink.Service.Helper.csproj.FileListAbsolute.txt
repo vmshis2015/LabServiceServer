@@ -1,0 +1,14 @@
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Service.Helper\bin\Release\Vietbait.Lablink.Service.Helper.exe
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Service.Helper\bin\Release\Vietbait.Lablink.Service.Helper.pdb
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Service.Helper\obj\Release\Vietbait.Lablink.Service.Helper.csprojResolveAssemblyReference.cache
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Service.Helper\obj\Release\Vietbait.Lablink.Service.Helper.ProjectInstaller.resources
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Service.Helper\obj\Release\Vietbait.Lablink.Service.Helper.csproj.GenerateResource.Cache
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Service.Helper\obj\Release\Vietbait.Lablink.Service.Helper.exe
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Service.Helper\obj\Release\Vietbait.Lablink.Service.Helper.pdb
+D:\Sys\Prj\trunk\Vietbait.Lablink.Service.Helper\bin\Release\Vietbait.Lablink.Service.Helper.exe
+D:\Sys\Prj\trunk\Vietbait.Lablink.Service.Helper\bin\Release\Vietbait.Lablink.Service.Helper.pdb
+D:\Sys\Prj\trunk\Vietbait.Lablink.Service.Helper\obj\Release\Vietbait.Lablink.Service.Helper.csprojResolveAssemblyReference.cache
+D:\Sys\Prj\trunk\Vietbait.Lablink.Service.Helper\obj\Release\Vietbait.Lablink.Service.Helper.ProjectInstaller.resources
+D:\Sys\Prj\trunk\Vietbait.Lablink.Service.Helper\obj\Release\Vietbait.Lablink.Service.Helper.csproj.GenerateResource.Cache
+D:\Sys\Prj\trunk\Vietbait.Lablink.Service.Helper\obj\Release\Vietbait.Lablink.Service.Helper.exe
+D:\Sys\Prj\trunk\Vietbait.Lablink.Service.Helper\obj\Release\Vietbait.Lablink.Service.Helper.pdb

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsTotalTestVNIO" targetNamespace="http://tempuri.org/dsTotalTestVNIO.xsd" xmlns:mstns="http://tempuri.org/dsTotalTestVNIO.xsd" xmlns="http://tempuri.org/dsTotalTestVNIO.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsTotalTestVNIO" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsTotalTestVNIO" msprop:Generator_DataSetName="dsTotalTestVNIO" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtTotalTest" msprop:Generator_UserTableName="dtTotalTest" msprop:Generator_RowDeletedName="dtTotalTestRowDeleted" msprop:Generator_RowChangedName="dtTotalTestRowChanged" msprop:Generator_RowClassName="dtTotalTestRow" msprop:Generator_RowChangingName="dtTotalTestRowChanging" msprop:Generator_RowEvArgName="dtTotalTestRowChangeEvent" msprop:Generator_RowEvHandlerName="dtTotalTestRowChangeEventHandler" msprop:Generator_TableClassName="dtTotalTestDataTable" msprop:Generator_TableVarName="tabledtTotalTest" msprop:Generator_RowDeletingName="dtTotalTestRowDeleting" msprop:Generator_TablePropName="dtTotalTest">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BH_NGOAITRU" msprop:Generator_UserColumnName="BH_NGOAITRU" msprop:Generator_ColumnPropNameInRow="BH_NGOAITRU" msprop:Generator_ColumnVarNameInTable="columnBH_NGOAITRU" msprop:Generator_ColumnPropNameInTable="BH_NGOAITRUColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="BH_NOITRU" msprop:Generator_UserColumnName="BH_NOITRU" msprop:Generator_ColumnPropNameInRow="BH_NOITRU" msprop:Generator_ColumnVarNameInTable="columnBH_NOITRU" msprop:Generator_ColumnPropNameInTable="BH_NOITRUColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DV_NGOAITRU" msprop:Generator_UserColumnName="DV_NGOAITRU" msprop:Generator_ColumnPropNameInRow="DV_NGOAITRU" msprop:Generator_ColumnVarNameInTable="columnDV_NGOAITRU" msprop:Generator_ColumnPropNameInTable="DV_NGOAITRUColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DV_NOITRU" msprop:Generator_UserColumnName="DV_NOITRU" msprop:Generator_ColumnPropNameInRow="DV_NOITRU" msprop:Generator_ColumnVarNameInTable="columnDV_NOITRU" msprop:Generator_ColumnPropNameInTable="DV_NOITRUColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TestType_Name" msprop:Generator_UserColumnName="TestType_Name" msprop:Generator_ColumnPropNameInRow="TestType_Name" msprop:Generator_ColumnVarNameInTable="columnTestType_Name" msprop:Generator_ColumnPropNameInTable="TestType_NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DataName" msprop:Generator_UserColumnName="DataName" msprop:Generator_ColumnPropNameInRow="DataName" msprop:Generator_ColumnVarNameInTable="columnDataName" msprop:Generator_ColumnPropNameInTable="DataNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Mien" msprop:Generator_UserColumnName="Mien" msprop:Generator_ColumnPropNameInRow="Mien" msprop:Generator_ColumnVarNameInTable="columnMien" msprop:Generator_ColumnPropNameInTable="MienColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ObjectType_ID" msprop:Generator_UserColumnName="ObjectType_ID" msprop:Generator_ColumnPropNameInRow="ObjectType_ID" msprop:Generator_ColumnVarNameInTable="columnObjectType_ID" msprop:Generator_ColumnPropNameInTable="ObjectType_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="UpdateNum" msprop:Generator_UserColumnName="UpdateNum" msprop:Generator_ColumnPropNameInRow="UpdateNum" msprop:Generator_ColumnVarNameInTable="columnUpdateNum" msprop:Generator_ColumnPropNameInTable="UpdateNumColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TONG" msprop:Generator_UserColumnName="TONG" msprop:Generator_ColumnPropNameInRow="TONG" msprop:Generator_ColumnVarNameInTable="columnTONG" msprop:Generator_ColumnPropNameInTable="TONGColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

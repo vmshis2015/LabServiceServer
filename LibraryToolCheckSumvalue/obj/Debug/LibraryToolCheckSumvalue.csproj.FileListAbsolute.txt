@@ -1,0 +1,9 @@
+E:\VBIT\LABlinkVer2New\trunk\LibraryToolCheckSumvalue\bin\Debug\LibraryToolCheckSumvalue.exe.config
+E:\VBIT\LABlinkVer2New\trunk\LibraryToolCheckSumvalue\obj\Debug\LibraryToolCheckSumvalue.csprojResolveAssemblyReference.cache
+E:\VBIT\LABlinkVer2New\trunk\LibraryToolCheckSumvalue\obj\Debug\LibraryToolCheckSumvalue.Form1.resources
+E:\VBIT\LABlinkVer2New\trunk\LibraryToolCheckSumvalue\obj\Debug\LibraryToolCheckSumvalue.Properties.Resources.resources
+E:\VBIT\LABlinkVer2New\trunk\LibraryToolCheckSumvalue\obj\Debug\LibraryToolCheckSumvalue.csproj.GenerateResource.Cache
+E:\VBIT\LABlinkVer2New\trunk\LibraryToolCheckSumvalue\bin\Debug\LibraryToolCheckSumvalue.exe
+E:\VBIT\LABlinkVer2New\trunk\LibraryToolCheckSumvalue\bin\Debug\LibraryToolCheckSumvalue.pdb
+E:\VBIT\LABlinkVer2New\trunk\LibraryToolCheckSumvalue\obj\Debug\LibraryToolCheckSumvalue.exe
+E:\VBIT\LABlinkVer2New\trunk\LibraryToolCheckSumvalue\obj\Debug\LibraryToolCheckSumvalue.pdb

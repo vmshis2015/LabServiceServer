@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema id="ds_dailyDetailTestReport" targetNamespace="http://tempuri.org/ds_dailyDetailTestReport.xsd" xmlns:mstns="http://tempuri.org/ds_dailyDetailTestReport.xsd" xmlns="http://tempuri.org/ds_dailyDetailTestReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_dailyDetailTestReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_dailyDetailTestReport" msprop:Generator_DataSetName="ds_dailyDetailTestReport">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtDailyDetailTestReport" msprop:Generator_UserTableName="dtDailyDetailTestReport" msprop:Generator_RowDeletedName="dtDailyDetailTestReportRowDeleted" msprop:Generator_RowChangedName="dtDailyDetailTestReportRowChanged" msprop:Generator_RowClassName="dtDailyDetailTestReportRow" msprop:Generator_RowChangingName="dtDailyDetailTestReportRowChanging" msprop:Generator_RowEvArgName="dtDailyDetailTestReportRowChangeEvent" msprop:Generator_RowEvHandlerName="dtDailyDetailTestReportRowChangeEventHandler" msprop:Generator_TableClassName="dtDailyDetailTestReportDataTable" msprop:Generator_TableVarName="tabledtDailyDetailTestReport" msprop:Generator_RowDeletingName="dtDailyDetailTestReportRowDeleting" msprop:Generator_TablePropName="dtDailyDetailTestReport">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TestType_ID" msprop:Generator_UserColumnName="TestType_ID" msprop:Generator_ColumnVarNameInTable="columnTestType_ID" msprop:Generator_ColumnPropNameInRow="TestType_ID" msprop:Generator_ColumnPropNameInTable="TestType_IDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="TestType_Name" msprop:Generator_UserColumnName="TestType_Name" msprop:Generator_ColumnVarNameInTable="columnTestType_Name" msprop:Generator_ColumnPropNameInRow="TestType_Name" msprop:Generator_ColumnPropNameInTable="TestType_NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Para_Name" msprop:Generator_UserColumnName="Para_Name" msprop:Generator_ColumnVarNameInTable="columnPara_Name" msprop:Generator_ColumnPropNameInRow="Para_Name" msprop:Generator_ColumnPropNameInTable="Para_NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PrintDetail" msprop:Generator_UserColumnName="PrintDetail" msprop:Generator_ColumnPropNameInRow="PrintDetail" msprop:Generator_ColumnVarNameInTable="columnPrintDetail" msprop:Generator_ColumnPropNameInTable="PrintDetailColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="NumOfTest" msprop:Generator_UserColumnName="NumOfTest" msprop:Generator_ColumnVarNameInTable="columnNumOfTest" msprop:Generator_ColumnPropNameInRow="NumOfTest" msprop:Generator_ColumnPropNameInTable="NumOfTestColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Price" msprop:Generator_UserColumnName="Price" msprop:Generator_ColumnVarNameInTable="columnPrice" msprop:Generator_ColumnPropNameInRow="Price" msprop:Generator_ColumnPropNameInTable="PriceColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalMoney" msprop:Generator_UserColumnName="TotalMoney" msprop:Generator_ColumnVarNameInTable="columnTotalMoney" msprop:Generator_ColumnPropNameInRow="TotalMoney" msprop:Generator_ColumnPropNameInTable="TotalMoneyColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

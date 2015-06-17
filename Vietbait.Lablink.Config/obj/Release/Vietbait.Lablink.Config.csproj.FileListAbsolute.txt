@@ -1,0 +1,93 @@
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\obj\Release\Vietbait.Lablink.Config.csprojResolveAssemblyReference.cache
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\obj\Release\Vietbait.Lablink.Config.FrmConfig.resources
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\obj\Release\Vietbait.Lablink.Config.frmInsertDevice.resources
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\obj\Release\Vietbait.Lablink.Config.FrmServiceConfig.resources
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\obj\Release\Vietbait.Lablink.Config.Properties.Resources.resources
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\obj\Release\Vietbait.Lablink.Config.csproj.GenerateResource.Cache
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\obj\Release\LABLink Config.exe.licenses
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\LABLink Config.exe
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\LABLink Config.pdb
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\DevComponents.DotNetBar2.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\Janus.Data.v3.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\Janus.Windows.Common.v3.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\Janus.Windows.GridEX.v3.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Lablink.Utilities.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\SubSonic.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Config.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\NLog.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Lablink.Model.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Lablink.TestResult.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\VietBaIT.CommonLibrary.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\nunit.framework.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\Mabry.Barcode.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\Mabry.Core.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Lablink.Utilities.pdb
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\Janus.Windows.GridEX.v3.xml
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Config.pdb
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\NLog.xml
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Lablink.Model.pdb
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Lablink.TestResult.pdb
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\obj\Release\LABLink Config.exe
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\obj\Release\LABLink Config.pdb
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\LABLink Config.exe
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\LABLink Config.pdb
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\DevComponents.DotNetBar2.dll
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\Janus.Data.v3.dll
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\Janus.Windows.Common.v3.dll
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\Janus.Windows.GridEX.v3.dll
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Lablink.Utilities.dll
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\SubSonic.dll
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Config.dll
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\NLog.dll
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Lablink.Model.dll
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Lablink.TestResult.dll
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\VietBaIT.CommonLibrary.dll
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\nunit.framework.dll
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\Mabry.Barcode.dll
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\Mabry.Core.dll
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Lablink.Utilities.pdb
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\Janus.Windows.GridEX.v3.xml
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Config.pdb
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\NLog.xml
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Lablink.Model.pdb
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Lablink.TestResult.pdb
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\obj\Release\Vietbait.Lablink.Config.csprojResolveAssemblyReference.cache
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\obj\Release\Vietbait.Lablink.Config.FrmConfig.resources
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\obj\Release\Vietbait.Lablink.Config.frmInsertDevice.resources
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\obj\Release\Vietbait.Lablink.Config.FrmServiceConfig.resources
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\obj\Release\Vietbait.Lablink.Config.Properties.Resources.resources
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\obj\Release\Vietbait.Lablink.Config.csproj.GenerateResource.Cache
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\obj\Release\LABLink Config.exe.licenses
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\obj\Release\LABLink Config.exe
+D:\Sys\Prj\trunk\Vietbait.Lablink.Config\obj\Release\LABLink Config.pdb
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\LABLink Config.exe
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\LABLink Config.pdb
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\DevComponents.DotNetBar2.dll
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\Janus.Data.v3.dll
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\Janus.Windows.Common.v3.dll
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\Janus.Windows.GridEX.v3.dll
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Lablink.Utilities.dll
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\SubSonic.dll
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Config.dll
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\NLog.dll
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Lablink.Model.dll
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Lablink.TestResult.dll
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\VietBaIT.CommonLibrary.dll
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\nunit.framework.dll
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\Mabry.Barcode.dll
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\Mabry.Core.dll
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Lablink.Utilities.pdb
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\Janus.Windows.GridEX.v3.xml
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Config.pdb
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\NLog.xml
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Lablink.Model.pdb
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\bin\Release\Vietbait.Lablink.TestResult.pdb
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\obj\Release\Vietbait.Lablink.Config.csprojResolveAssemblyReference.cache
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\obj\Release\Vietbait.Lablink.Config.FrmConfig.resources
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\obj\Release\Vietbait.Lablink.Config.frmInsertDevice.resources
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\obj\Release\Vietbait.Lablink.Config.FrmServiceConfig.resources
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\obj\Release\Vietbait.Lablink.Config.Properties.Resources.resources
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\obj\Release\Vietbait.Lablink.Config.csproj.GenerateResource.Cache
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\obj\Release\LABLink Config.exe.licenses
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\obj\Release\LABLink Config.exe
+D:\Setup\FullS\trunk\Vietbait.Lablink.Config\obj\Release\LABLink Config.pdb

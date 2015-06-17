@@ -1,0 +1,759 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Ham>
+    <MaNhom>21</MaNhom>
+    <MaViDu>V00001</MaViDu>
+    <TenHam>Load font hệ thống vào Listbox</TenHam>
+    <MoTa>Cho mình hỏi làm sao để load font hệ thống vào 1 listbox trong vbnet 205 
+Ví như ở vb 6 là: 
+
+Screen.Fonts(i) 
+
+còn trong vbnet mình tìm mãi mà không ra .. cảm ơn các bạn.</MoTa>
+    <ThamSo />
+    <HamLienQuan />
+    <GhiChu />
+    <NgayCapNhat>5/7/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>21</MaNhom>
+    <MaViDu>V00003</MaViDu>
+    <TenHam>Tạo mảng control trong .NET</TenHam>
+    <MoTa>Tạo 1 mảng control Label và đăng ký event</MoTa>
+    <ThamSo />
+    <HamLienQuan />
+    <GhiChu />
+    <NgayCapNhat>5/7/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>17</MaNhom>
+    <MaViDu>V00004</MaViDu>
+    <TenHam>Lấy Windows User trên máy đang sử dụng</TenHam>
+    <MoTa>Lấy tên người dùng hiện tại trên máy.</MoTa>
+    <ThamSo />
+    <HamLienQuan />
+    <GhiChu />
+    <NgayCapNhat>5/7/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>15</MaNhom>
+    <MaViDu>V00005</MaViDu>
+    <TenHam>Xóa các khoảng trắng không cần thiết</TenHam>
+    <MoTa>Xóa các khoảng trắng không cần thiết với chỉ vài dòng lệnh</MoTa>
+    <ThamSo />
+    <HamLienQuan />
+    <GhiChu>The expression \w includes all letters and numbers, the \s all spaces. The ^ negates the expression, so all invalid characters get replaced with an empty string. 
+The expression \d includes all decimal digit. The ^ negates the expression, so all invalid decimal digit get replaced with an empty string. 
+The expression \s+ includes one or more spaces, so regardless one or more spaces get replaced with a space</GhiChu>
+    <NgayCapNhat>5/7/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>15</MaNhom>
+    <MaViDu>V00006</MaViDu>
+    <TenHam>Lấy khoảng thời gian giữa 2 thời điểm</TenHam>
+    <MoTa>Lấy khoảng thời gian giữa thời điểm (bắt đầu làm gì đó) và thời điểm kết thúc.</MoTa>
+    <ThamSo />
+    <HamLienQuan />
+    <GhiChu />
+    <NgayCapNhat>5/7/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>21</MaNhom>
+    <MaViDu>V00007</MaViDu>
+    <TenHam>Làm mất X-Button của form trong lúc thực thi</TenHam>
+    <MoTa>Làm mất nút Close của form trong lúc thực thi.</MoTa>
+    <ThamSo />
+    <HamLienQuan />
+    <GhiChu />
+    <NgayCapNhat>5/7/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>18</MaNhom>
+    <MaViDu>V00008</MaViDu>
+    <TenHam>Chuyển đổi kích thước file</TenHam>
+    <MoTa>Chuyển đổi kích thước file về bytes, Kb hoặc Mb.</MoTa>
+    <ThamSo />
+    <HamLienQuan />
+    <GhiChu />
+    <NgayCapNhat>5/7/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>15</MaNhom>
+    <MaViDu>V00009</MaViDu>
+    <TenHam>Lấy khoảng cách giữa 2 năm</TenHam>
+    <MoTa>Có thể dùng để tính tuổi.</MoTa>
+    <ThamSo />
+    <HamLienQuan />
+    <GhiChu />
+    <NgayCapNhat>5/7/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>18</MaNhom>
+    <MaViDu>V00010</MaViDu>
+    <TenHam>Tìm tất cả các file trong thư mục</TenHam>
+    <MoTa>Tìm tất cả các file trong thư mục &amp; thư mục con</MoTa>
+    <ThamSo />
+    <HamLienQuan />
+    <GhiChu />
+    <NgayCapNhat>5/7/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>15</MaNhom>
+    <MaViDu>V00011</MaViDu>
+    <TenHam>Tính số ngày đi làm trong tháng</TenHam>
+    <MoTa>Tính số ngày đi làm trong tháng (trừ t7, cn)</MoTa>
+    <ThamSo />
+    <HamLienQuan />
+    <GhiChu />
+    <NgayCapNhat>5/7/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>21</MaNhom>
+    <MaViDu>V00012</MaViDu>
+    <TenHam>Tạo form với hiệu ứng DropShadow</TenHam>
+    <MoTa>Rất đơn giản,bạn chỉ cần khai báo tham số CS_DROPSHADOW và với nó bạn có thể làm cho bất cứ Window nào cũng sẽ có một cái bóng như dưới đây bằng trao cho lớp của nó tham số trên</MoTa>
+    <ThamSo />
+    <HamLienQuan />
+    <GhiChu>Const CS_DROPSHADOW = &amp;H20000</GhiChu>
+    <NgayCapNhat>5/7/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>17</MaNhom>
+    <MaViDu>V00013</MaViDu>
+    <TenHam>Tắt, khởi động máy</TenHam>
+    <MoTa>Giới thiệu với bạn 2 cách để Shutdown và Restart máy.</MoTa>
+    <ThamSo />
+    <HamLienQuan />
+    <GhiChu>Nhớ Add Reference thư viện System.Management khi sử dụng cách 2.</GhiChu>
+    <NgayCapNhat>5/7/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>21</MaNhom>
+    <MaViDu>075616015603</MaViDu>
+    <TenHam>Làm cho form trong suốt</TenHam>
+    <MoTa>Làm cho Form trở thành trong suốt, nhìn thấy cửa sổ bên dưới.</MoTa>
+    <ThamSo />
+    <HamLienQuan />
+    <GhiChu>Bạn có thể thay số 200 thành 1 giá trị từ 0 đến 255 để có cường độ trong suốt thích hợp:
+SetLayeredWindowAttributes(hwnd, 0, 200, LWA_ALPHA)</GhiChu>
+    <NgayCapNhat>5/7/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>17</MaNhom>
+    <MaViDu>072508012516</MaViDu>
+    <TenHam>Kích hoạt chức năng Hibernate và Stand By của Windows</TenHam>
+    <MoTa>Kích hoạt chức năng Hibernate và Stand By trong Windows</MoTa>
+    <ThamSo />
+    <HamLienQuan />
+    <GhiChu />
+    <NgayCapNhat>8/7/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>8</MaNhom>
+    <MaViDu>073009043023</MaViDu>
+    <TenHam>DateDiff</TenHam>
+    <MoTa>Public Overloads Function DateDiff( _
+    ByVal Interval As [ DateInterval | String ], _
+    ByVal Date1 As DateTime, _
+    ByVal Date2 As DateTime, _
+    Optional ByVal DayOfWeek As FirstDayOfWeek = FirstDayOfWeek.Sunday, _
+    Optional ByVal  WeekOfYear As FirstWeekOfYear = FirstWeekOfYear.Jan1 _
+) As Long
+
+Trả về giá trị kiểu Long khoảng cách thời gian giữa 2 giá trị Date1 và Date2.</MoTa>
+    <ThamSo>Interval: chỉ ra giá trị mà bạn muốn so sánh sự khác nhau giữa Date1 và Date2
+ 
+Date1: Thời điểm 1.
+
+Date2: Thời điểm 2.
+
+DayOfWeek: tùy chọn. Chỉ ra ngày đầu tiên của tuần. Nếu để trống mặc định sẽ là 1 (FirstDayOfWeek.Sunday).
+ 
+WeekOfYear: tùy chọn. Chỉ ra tuần đầu tiên của năm. Mặc định là 1 (FirstWeekOfYear.Jan1).</ThamSo>
+    <HamLienQuan>DateAdd
+DatePart</HamLienQuan>
+    <GhiChu>Dùng cho tham số interval:
+DateInterval.Day
+ "d" 
+ Day 
+ 
+DateInterval.DayOfYear
+ "y" 
+ Day 
+ 
+DateInterval.Hour
+ "h" 
+ Hour 
+ 
+DateInterval.Minute
+ "n" 
+ Minute 
+ 
+DateInterval.Month
+ "m" 
+ Month 
+ 
+DateInterval.Quarter
+ "q" 
+ Quarter 
+ 
+DateInterval.Second
+ "s" 
+ Second 
+ 
+DateInterval.Weekday
+ "w" 
+ Week 
+ 
+DateInterval.WeekOfYear
+ "ww" 
+ Calendar week 
+ 
+DateInterval.Year
+ "yyyy" 
+ Year 
+
+Dùng cho tham số DayOfWeek:
+FirstDayOfWeek.System
+ 0 
+ First day of week specified in system settings 
+ 
+FirstDayOfWeek.Sunday
+ 1 
+ Sunday (default) 
+ 
+FirstDayOfWeek.Monday
+ 2 
+ Monday (complies with ISO standard 8601, section 3.17) 
+ 
+FirstDayOfWeek.Tuesday
+ 3 
+ Tuesday 
+ 
+FirstDayOfWeek.Wednesday
+ 4 
+ Wednesday 
+ 
+FirstDayOfWeek.Thursday
+ 5 
+ Thursday 
+ 
+FirstDayOfWeek.Friday
+ 6 
+ Friday 
+ 
+FirstDayOfWeek.Saturday
+ 7 
+ Saturday
+
+Dùng cho tham số WeekOfYear:
+FirstWeekOfYear.System
+ 0 
+ First week of year specified in system settings 
+ 
+FirstWeekOfYear.Jan1
+ 1 
+ Week in which January 1 occurs (default) 
+ 
+FirstWeekOfYear.FirstFourDays
+ 2 
+ Week that has at least four days in the new year (complies with ISO standard 8601, section 3.17) 
+ 
+FirstWeekOfYear.FirstFullWeek
+ 3 
+ First full week in the new year </GhiChu>
+    <NgayCapNhat>9/8/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>8</MaNhom>
+    <MaViDu>075709035710</MaViDu>
+    <TenHam>DateAdd</TenHam>
+    <MoTa>Public Overloads Function DateAdd( _
+   ByVal Interval As DateInterval, _
+   ByVal Number As Double, _
+   ByVal DateValue As DateTime _
+) As DateTime
+' -or-
+Public Overloads Function DateAdd( _
+   ByVal Interval As String, _
+   ByVal Number As Double, _
+   ByVal DateValue As Object _
+) As DateTime
+
+Thêm thời gian.</MoTa>
+    <ThamSo>Interval: giá trị mô tả khoảng thời gian bạn muốn thêm vào.
+
+Number: kiểu Double. Chỉ ra khoảng thời gian cần thêm vào hoặc bớt đi.
+
+DateValue: kiểu Date. Giá trị ngày ban đầu.</ThamSo>
+    <HamLienQuan>DateDiff
+DatePart</HamLienQuan>
+    <GhiChu>Dùng cho tham số interval:
+DateInterval.Day
+ d 
+ Day; truncated to integral value 
+ 
+DateInterval.DayOfYear
+ y 
+ Day; truncated to integral value 
+ 
+DateInterval.Hour
+ h 
+ Hour; rounded to nearest millisecond 
+ 
+DateInterval.Minute
+ n 
+ Minute; rounded to nearest millisecond 
+ 
+DateInterval.Month
+ m 
+ Month; truncated to integral value 
+ 
+DateInterval.Quarter
+ q 
+ Quarter; truncated to integral value 
+ 
+DateInterval.Second
+ s 
+ Second; rounded to nearest millisecond 
+ 
+DateInterval.Weekday
+ w 
+ Day; truncated to integral value 
+ 
+DateInterval.WeekOfYear
+ ww 
+ Week; truncated to integral value 
+ 
+DateInterval.Year
+ yyyy 
+ Year; truncated to integral value </GhiChu>
+    <NgayCapNhat>9/8/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>8</MaNhom>
+    <MaViDu>V00002</MaViDu>
+    <TenHam>DateString</TenHam>
+    <MoTa>Public Property DateString As String
+
+Lấy hoặc thay đổi ngày hệ thống.</MoTa>
+    <ThamSo />
+    <HamLienQuan>Today
+TimeOfDay
+TimeString</HamLienQuan>
+    <GhiChu>Trả về kiểu chuỗi mô tả ngày.</GhiChu>
+    <NgayCapNhat>9/8/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>8</MaNhom>
+    <MaViDu>070109030143</MaViDu>
+    <TenHam>Now</TenHam>
+    <MoTa>ReadOnly Public Property Now() As DateTime
+
+Trả về ngày giờ hiện tại của hệ thống.</MoTa>
+    <ThamSo />
+    <HamLienQuan>Today
+TimeOfDay</HamLienQuan>
+    <GhiChu>Giá trị trả về kiểu ngày giờ.</GhiChu>
+    <NgayCapNhat>9/8/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>8</MaNhom>
+    <MaViDu>072209032222</MaViDu>
+    <TenHam>TimeOfDay</TenHam>
+    <MoTa>Public Property TimeOfDay() As DateTime
+
+Lấy hoặc đặt lại giờ hiện tại của hệ thống.</MoTa>
+    <ThamSo />
+    <HamLienQuan>Now
+Today
+DateString
+TimeString</HamLienQuan>
+    <GhiChu>Giá trị trả về kiểu Date.</GhiChu>
+    <NgayCapNhat>9/8/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>8</MaNhom>
+    <MaViDu>V00002</MaViDu>
+    <TenHam>Today</TenHam>
+    <MoTa>Public Property Today() As DateTime
+
+Lấy hoặc đổi ngày hệ thống.</MoTa>
+    <ThamSo />
+    <HamLienQuan>DateString
+TimeString
+TimeOfDay
+Now</HamLienQuan>
+    <GhiChu>Trả về kiểu ngày tháng.</GhiChu>
+    <NgayCapNhat>9/8/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>8</MaNhom>
+    <MaViDu>070809050810</MaViDu>
+    <TenHam>DatePart</TenHam>
+    <MoTa>Public Overloads Function DatePart( _
+   ByVal Interval As DateInterval, _
+   ByVal DateValue As DateTime, _
+   Optional ByVal FirstDayOfWeekValue As FirstDayOfWeek = VbSunday, _
+   Optional ByVal FirstWeekOfYearValue As FirstWeekOfYear = VbFirstJan1 _
+) As Integer
+' -or-
+Public Overloads Function DatePart( _
+    ByVal Interval As String, _
+   ByVal DateValue As Object, _
+   Optional ByVal DayOfWeek As FirstDayOfWeek = FirstDayOfWeek.Sunday, _
+   Optional ByVal WeekOfYear As FirstWeekOfYear = FirstWeekOfYear.Jan1 _
+) As Integer
+
+Rút bất kỳ thông tin ngày tháng và thời gian từ giá trị date.</MoTa>
+    <ThamSo>Interval: đơn vị thời gian
+
+DateValue: thời gian
+
+FirstDayOfWeekValue, DayOfWeek: tùy chọn. Ngày đầu tiên trong tuần.
+
+FirstWeekOfYearValue, WeekOfYear: tùy chọn. Tuần đầu tiên trong năm.</ThamSo>
+    <HamLienQuan>DateAdd
+DateDiff</HamLienQuan>
+    <GhiChu>Dùng cho tham số interval:
+DateInterval.Day
+ d 
+ Day of month (1 through 31) 
+ 
+DateInterval.DayOfYear
+ y 
+ Day of year (1 through 366) 
+ 
+DateInterval.Hour
+ h 
+ Hour 
+ 
+DateInterval.Minute
+ n 
+ Minute 
+ 
+DateInterval.Month
+ m 
+ Month 
+ 
+DateInterval.Quarter
+ q 
+ Quarter 
+ 
+DateInterval.Second
+ s 
+ Second 
+ 
+DateInterval.Weekday
+ w 
+ Day of week (1 through 7) 
+ 
+DateInterval.WeekOfYear
+ ww 
+ Week of year (1 through 53) 
+ 
+DateInterval.Year
+ yyyy 
+ Year
+ 
+Dùng cho tham số FirstDayOfWeekValue:
+FirstDayOfWeek.System
+ 0 
+ First day of week specified in system settings 
+ 
+FirstDayOfWeek.Sunday
+ 1 
+ Sunday (default) 
+ 
+FirstDayOfWeek.Monday
+ 2 
+ Monday (complies with ISO standard 8601, section 3.17) 
+ 
+FirstDayOfWeek.Tuesday
+ 3 
+ Tuesday 
+ 
+FirstDayOfWeek.Wednesday
+ 4 
+ Wednesday 
+ 
+FirstDayOfWeek.Thursday
+ 5 
+ Thursday 
+ 
+FirstDayOfWeek.Friday
+ 6 
+ Friday 
+ 
+FirstDayOfWeek.Saturday
+ 7 
+ Saturday
+ 
+Dùng cho tham số FirstWeekOfYearValue:
+stWeekOfYear.System
+ 0 
+ First week of year specified in system settings 
+ 
+FirstWeekOfYear.Jan1
+ 1 
+ Week in which January 1 occurs (default) 
+ 
+FirstWeekOfYear.FirstFourDays
+ 2 
+ Week that has at least four days in the new year (complies with ISO standard 8601, section 3.17) 
+ 
+FirstWeekOfYear.FirstFullWeek
+ 3 
+ First full week in new year</GhiChu>
+    <NgayCapNhat>9/8/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>8</MaNhom>
+    <MaViDu>072309052300</MaViDu>
+    <TenHam>DateSerial</TenHam>
+    <MoTa>Public Function DateSerial( _
+   ByVal [Year] As Integer, _
+   ByVal [Month] As Integer, _
+   ByVal [Day] As Integer _
+) As DateTime
+
+Chuyển các thông số rời rạc của ngày tháng thành một chuỗi ngày tháng.</MoTa>
+    <ThamSo>Year: năm.
+
+Month: tháng.
+
+Day: ngày.</ThamSo>
+    <HamLienQuan>DateValue
+MonthName
+WeekDayName</HamLienQuan>
+    <GhiChu>Nếu tháng = 1: kết quả là tháng 1.
+Nếu tháng = 0: kết quả là tháng 12 năm trước đó.
+Nếu tháng = -1: kết quả là tháng 11 năm trước đó.
+Nếu tháng = 13: kết quả là tháng 1 năm sau đó.
+
+Nếu ngày = 1: kết quả là ngày 1 của tháng.
+Nếu ngày = 0: kết quả là ngày cuối cùng của tháng trước.
+Nếu ngày = -1: kết quả là ngày cuối cùng của tháng trước trừ 1.</GhiChu>
+    <NgayCapNhat>9/8/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>8</MaNhom>
+    <MaViDu>072809052807</MaViDu>
+    <TenHam>DateValue</TenHam>
+    <MoTa>Public Function DateValue(ByVal StringDate As String) As DateTime
+
+Chuyển ngày tháng dạng chuỗi sang giá trị.</MoTa>
+    <ThamSo>StringDate: ngày tháng cần chuyển.</ThamSo>
+    <HamLienQuan>DateSerial
+MonthName
+WeekDayName</HamLienQuan>
+    <GhiChu />
+    <NgayCapNhat>9/8/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>8</MaNhom>
+    <MaViDu>073209053220</MaViDu>
+    <TenHam>MonthName</TenHam>
+    <MoTa>Public Function MonthName( _
+   ByVal Month As Integer, _
+   Optional ByVal Abbreviate As Boolean = False _
+) As String
+
+Chuyển đổi tháng từ dạng số sang dạng chuỗi.</MoTa>
+    <ThamSo>Month: tháng.
+
+Abbreviate: viết tắt.</ThamSo>
+    <HamLienQuan>DateSerial
+DateValue
+WeekDayName</HamLienQuan>
+    <GhiChu />
+    <NgayCapNhat>9/8/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>8</MaNhom>
+    <MaViDu>073609053629</MaViDu>
+    <TenHam>WeekdayName</TenHam>
+    <MoTa>Public Function WeekdayName( _
+   ByVal Weekday As Integer, _
+   Optional ByVal Abbreviate As Boolean = False, _
+   Optional ByVal FirstDayOfWeekValue As FirstDayOfWeek = FirstDayOfWeek.System _
+) As String
+
+Chuyển weekday từ giá trị sang chuỗi.</MoTa>
+    <ThamSo>Weekday: ngày cần chuyển.
+
+Abbreviate: viết tắt.
+
+FirstDayOfWeekValue: ngày đầu tiên trong tuần.</ThamSo>
+    <HamLienQuan>DateSerial
+DateValue
+MonthName</HamLienQuan>
+    <GhiChu>Dùng cho tham số FirstDayOfWeekValue:
+FirstDayOfWeek.System
+ 0 
+ First day of week specified in system settings (default) 
+ 
+FirstDayOfWeek.Sunday
+ 1 
+ Sunday 
+ 
+FirstDayOfWeek.Monday
+ 2 
+ Monday (complies with ISO standard 8601, section 3.17) 
+ 
+FirstDayOfWeek.Tuesday
+ 3 
+ Tuesday 
+ 
+FirstDayOfWeek.Wednesday
+ 4 
+ Wednesday 
+ 
+FirstDayOfWeek.Thursday
+ 5 
+ Thursday 
+ 
+FirstDayOfWeek.Friday
+ 6 
+ Friday 
+ 
+FirstDayOfWeek.Saturday
+ 7 
+ Saturday </GhiChu>
+    <NgayCapNhat>9/8/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>8</MaNhom>
+    <MaViDu>074209054201</MaViDu>
+    <TenHam>TimeSerial</TenHam>
+    <MoTa>Public Function TimeSerial( _
+   ByVal Hour As Integer, _
+   ByVal Minute As Integer, _
+   ByVal Second As Integer _
+) As DateTime
+
+Chuyển các thông số rời rạc của thời gian thành một chuỗi thời gian.</MoTa>
+    <ThamSo>Hour: giờ.
+
+Minute: phút.
+
+Second: giây.</ThamSo>
+    <HamLienQuan>TimeValue</HamLienQuan>
+    <GhiChu />
+    <NgayCapNhat>9/8/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>8</MaNhom>
+    <MaViDu>074409054419</MaViDu>
+    <TenHam>TimeValue</TenHam>
+    <MoTa>Public Function TimeValue(ByVal StringTime As String) As DateTime
+
+Chuyển thời gian dạng chuỗi sang giá trị</MoTa>
+    <ThamSo>StringTime: thời gian cần chuyển.</ThamSo>
+    <HamLienQuan>TimeSerial</HamLienQuan>
+    <GhiChu />
+    <NgayCapNhat>9/8/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>8</MaNhom>
+    <MaViDu>074909054941</MaViDu>
+    <TenHam>TimeString</TenHam>
+    <MoTa>Public Property TimeString As String
+
+Thiết đặt lại hoặc trả về thời gian hiện hành.</MoTa>
+    <ThamSo />
+    <HamLienQuan>DateString
+TimeOfDay
+Today</HamLienQuan>
+    <GhiChu>Giá trị trả về kiểu String.</GhiChu>
+    <NgayCapNhat>9/8/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>8</MaNhom>
+    <MaViDu>070009060002</MaViDu>
+    <TenHam>Timer</TenHam>
+    <MoTa>ReadOnly Public Property Timer() As Double
+
+Trả về khoảng thời gian tính bằng giây tính từ lúc nửa đêm (00:00:00).</MoTa>
+    <ThamSo />
+    <HamLienQuan />
+    <GhiChu />
+    <NgayCapNhat>9/8/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>13</MaNhom>
+    <MaViDu>075112115139</MaViDu>
+    <TenHam>AppActivate</TenHam>
+    <MoTa>Public Overloads Sub AppActivate( _
+      ByVal { Title As String | ProcessId As Integer } _
+)
+
+Gọi một cửa sổ đang chạy activate (Nếu cửa sổ đó chưa được mở sẽ xảy ra lỗi)</MoTa>
+    <ThamSo>Title: tiêu đề của cửa sổ đó
+ProcessId: process ID.</ThamSo>
+    <HamLienQuan>Shell</HamLienQuan>
+    <GhiChu>Có thể activate cửa sổ thông qua tiêu đề hoặc process ID.</GhiChu>
+    <NgayCapNhat>12/9/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>13</MaNhom>
+    <MaViDu>075112115139</MaViDu>
+    <TenHam>Shell</TenHam>
+    <MoTa>Public Function Shell( _
+   ByVal PathName As String, _ 
+   Optional ByVal Style As AppWinStyle = AppWinStyle.MinimizedFocus, _ 
+   Optional ByVal Wait As Boolean = False, _ 
+   Optional ByVal Timeout As Integer = -1 _
+) As Integer
+
+Khởi động một chương trình ứng dụng khác.</MoTa>
+    <ThamSo>PathName: đường dẫn tập tin chạy của chương trình đó.
+
+Style: chế độ hiển thị của trình ứng dụng đó. Tùy chọn 1 giá trị của AppWinStyle, nếu để trống thì mặc định là AppWinStyle.MinimizedFocus
+
+Wait: tùy chọn, mặc định là false. Chỉ ra hàm Shell có chờ load xong chương trình không.
+
+Timeout: tùy chọn, số millisecond phải chờ để load xong chương trình nếu tham số Wait bằng True. Bỏ trống hoặc đặt bằng -1 để tắt tùy chọn này, khi đó hàm Shell sẽ không trả lại quyền điều khiển cho tới khi load xong.</ThamSo>
+    <HamLienQuan>AppActivate</HamLienQuan>
+    <GhiChu>Các giá trị của AppWinStyle dùng cho tham số Style:
+Hide
+Chế độ ẩn
+NormalFocus
+Chế độ bình thường có Focus
+MinimizedFocus
+Chế độ thu nhỏ có Focus
+MaximizedFocus
+Chế độ phóng to
+NormalNoFocus
+Chế độ bình thường không có Focus
+MinimizedNoFocus
+Chế độ thu nhỏ không có Focus</GhiChu>
+    <NgayCapNhat>13/9/2007</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>22</MaNhom>
+    <MaViDu>113123083147</MaViDu>
+    <TenHam>Demo</TenHam>
+    <MoTa>Demo mô tả</MoTa>
+    <ThamSo>ko có tham số</ThamSo>
+    <HamLienQuan>Lấy khoảng cách giữa 2 năm</HamLienQuan>
+    <GhiChu>Ko có gì</GhiChu>
+    <NgayCapNhat>23/3/2011</NgayCapNhat>
+  </Ham>
+  <Ham>
+    <MaNhom>20</MaNhom>
+    <MaViDu>115423115430</MaViDu>
+    <TenHam>FillDataToCombobox</TenHam>
+    <MoTa>Author: Hien TD
+NameSpace: Vietbait.Lablink.Utilities
+Class: UI
+
+Load dữ liệu từ CSDL vào Combobox
+</MoTa>
+    <ThamSo>ComboBox comboBox, string tableName, string displayMember, string valueMember</ThamSo>
+    <HamLienQuan />
+    <GhiChu>Có 2 cách gọi hàm
+Có thể load cả dòng thông báo chọn đầu tiên hoặc bỏ.</GhiChu>
+    <NgayCapNhat>23/3/2011</NgayCapNhat>
+  </Ham>
+</NewDataSet>

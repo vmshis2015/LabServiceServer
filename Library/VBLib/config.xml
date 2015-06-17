@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <dbUpdate>29/12/2010</dbUpdate>
+  <width>1296</width>
+  <height>786</height>
+  <top>-8</top>
+  <left>-8</left>
+  <maximize>True</maximize>
+  <spliter>200</spliter>
+  <isVB>False</isVB>
+</config>

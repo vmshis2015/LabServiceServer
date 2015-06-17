@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema id="ds_CreenTest" targetNamespace="http://tempuri.org/ds_CreenTest.xsd" xmlns:mstns="http://tempuri.org/ds_CreenTest.xsd" xmlns="http://tempuri.org/ds_CreenTest.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_CreenTest" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="ds_CreenTest" msprop:Generator_UserDSName="ds_CreenTest" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtCreenTest" msprop:Generator_UserTableName="dtCreenTest" msprop:Generator_RowDeletedName="dtCreenTestRowDeleted" msprop:Generator_TableClassName="dtCreenTestDataTable" msprop:Generator_RowChangedName="dtCreenTestRowChanged" msprop:Generator_RowClassName="dtCreenTestRow" msprop:Generator_RowChangingName="dtCreenTestRowChanging" msprop:Generator_RowEvArgName="dtCreenTestRowChangeEvent" msprop:Generator_RowEvHandlerName="dtCreenTestRowChangeEventHandler" msprop:Generator_TablePropName="dtCreenTest" msprop:Generator_TableVarName="tabledtCreenTest" msprop:Generator_RowDeletingName="dtCreenTestRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="barcode" msprop:Generator_UserColumnName="barcode" msprop:Generator_ColumnPropNameInRow="barcode" msprop:Generator_ColumnVarNameInTable="columnbarcode" msprop:Generator_ColumnPropNameInTable="barcodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Para_1" msprop:Generator_UserColumnName="Para_1" msprop:Generator_ColumnPropNameInRow="Para_1" msprop:Generator_ColumnVarNameInTable="columnPara_1" msprop:Generator_ColumnPropNameInTable="Para_1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Para_2" msprop:Generator_UserColumnName="Para_2" msprop:Generator_ColumnPropNameInRow="Para_2" msprop:Generator_ColumnVarNameInTable="columnPara_2" msprop:Generator_ColumnPropNameInTable="Para_2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Para_3" msprop:Generator_UserColumnName="Para_3" msprop:Generator_ColumnPropNameInRow="Para_3" msprop:Generator_ColumnVarNameInTable="columnPara_3" msprop:Generator_ColumnPropNameInTable="Para_3Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Para_4" msprop:Generator_UserColumnName="Para_4" msprop:Generator_ColumnPropNameInRow="Para_4" msprop:Generator_ColumnVarNameInTable="columnPara_4" msprop:Generator_ColumnPropNameInTable="Para_4Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Para_5" msprop:Generator_UserColumnName="Para_5" msprop:Generator_ColumnPropNameInRow="Para_5" msprop:Generator_ColumnVarNameInTable="columnPara_5" msprop:Generator_ColumnPropNameInTable="Para_5Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

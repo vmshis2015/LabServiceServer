@@ -1,0 +1,5 @@
+E:\VBIT\LABlinkVer2New\trunk\debug\Vietbait.Lablink.Devices.Urine.dll
+E:\VBIT\LABlinkVer2New\trunk\debug\Vietbait.Lablink.Devices.Urine.pdb
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Devices.Urine\obj\Debug\Vietbait.Lablink.Devices.Urine.csprojResolveAssemblyReference.cache
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Devices.Urine\obj\Debug\Vietbait.Lablink.Devices.Urine.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Devices.Urine\obj\Debug\Vietbait.Lablink.Devices.Urine.pdb

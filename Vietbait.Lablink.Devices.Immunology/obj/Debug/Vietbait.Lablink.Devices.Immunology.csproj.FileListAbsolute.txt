@@ -1,0 +1,5 @@
+E:\VBIT\LABlinkVer2New\trunk\debug\Vietbait.Lablink.Devices.Immunology.dll
+E:\VBIT\LABlinkVer2New\trunk\debug\Vietbait.Lablink.Devices.Immunology.pdb
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Devices.Immunology\obj\Debug\Vietbait.Lablink.Devices.Immunology.csprojResolveAssemblyReference.cache
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Devices.Immunology\obj\Debug\Vietbait.Lablink.Devices.Immunology.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Devices.Immunology\obj\Debug\Vietbait.Lablink.Devices.Immunology.pdb

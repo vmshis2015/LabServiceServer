@@ -1,0 +1,17 @@
+E:\VBIT\LABlinkVer2New\trunk\Library\Vietbait.Lablink.Model.dll.config
+E:\VBIT\LABlinkVer2New\trunk\Library\Vietbait.Lablink.Model.dll
+E:\VBIT\LABlinkVer2New\trunk\Library\Vietbait.Lablink.Model.pdb
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Model\obj\Release\Vietbait.Lablink.Model.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Model\obj\Release\Vietbait.Lablink.Model.pdb
+D:\Sys\Prj\trunk\Library\Vietbait.Lablink.Model.dll.config
+D:\Sys\Prj\trunk\Library\Vietbait.Lablink.Model.dll
+D:\Sys\Prj\trunk\Library\Vietbait.Lablink.Model.pdb
+D:\Sys\Prj\trunk\Vietbait.Lablink.Model\obj\Release\Vietbait.Lablink.Model.dll
+D:\Sys\Prj\trunk\Vietbait.Lablink.Model\obj\Release\Vietbait.Lablink.Model.pdb
+D:\Sys\Prj\trunk\Vietbait.Lablink.Model\obj\Release\Vietbait.Lablink.Model.csprojResolveAssemblyReference.cache
+D:\Setup\FullS\trunk\Library\Vietbait.Lablink.Model.dll.config
+D:\Setup\FullS\trunk\Library\Vietbait.Lablink.Model.dll
+D:\Setup\FullS\trunk\Library\Vietbait.Lablink.Model.pdb
+D:\Setup\FullS\trunk\Vietbait.Lablink.Model\obj\Release\Vietbait.Lablink.Model.csprojResolveAssemblyReference.cache
+D:\Setup\FullS\trunk\Vietbait.Lablink.Model\obj\Release\Vietbait.Lablink.Model.dll
+D:\Setup\FullS\trunk\Vietbait.Lablink.Model\obj\Release\Vietbait.Lablink.Model.pdb

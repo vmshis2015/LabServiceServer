@@ -1,0 +1,13 @@
+E:\VBIT\LABlinkVer2New\trunk\Library\Vietbait.Config.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Config\obj\Release\Vietbait.Config.Properties.Resources.resources
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Config\obj\Release\Vietbait.Config.csproj.GenerateResource.Cache
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Config\obj\Release\Vietbait.Config.dll
+D:\Sys\Prj\trunk\Library\Vietbait.Config.dll
+D:\Sys\Prj\trunk\Vietbait.Config\obj\Release\Vietbait.Config.Properties.Resources.resources
+D:\Sys\Prj\trunk\Vietbait.Config\obj\Release\Vietbait.Config.csproj.GenerateResource.Cache
+D:\Sys\Prj\trunk\Vietbait.Config\obj\Release\Vietbait.Config.dll
+D:\Setup\FullS\trunk\Library\Vietbait.Config.dll
+D:\Setup\FullS\trunk\Vietbait.Config\obj\Release\Vietbait.Config.csprojResolveAssemblyReference.cache
+D:\Setup\FullS\trunk\Vietbait.Config\obj\Release\Vietbait.Config.Properties.Resources.resources
+D:\Setup\FullS\trunk\Vietbait.Config\obj\Release\Vietbait.Config.csproj.GenerateResource.Cache
+D:\Setup\FullS\trunk\Vietbait.Config\obj\Release\Vietbait.Config.dll

@@ -1,0 +1,1 @@
+ // The class TblToolbarButton was not generated because tbl_ToolbarButton does not have a primary key.

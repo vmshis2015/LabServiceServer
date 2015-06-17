@@ -1,0 +1,7 @@
+E:\VBIT\LABlinkVer2New\trunk\debug\Vietbait.Lablink.Utilities.dll
+E:\VBIT\LABlinkVer2New\trunk\debug\Vietbait.Lablink.Utilities.pdb
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Utilities\obj\Debug\Vietbait.Lablink.Utilities.csprojResolveAssemblyReference.cache
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Utilities\obj\Debug\Vietbait.Lablink.Utilities.Properties.Resources.resources
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Utilities\obj\Debug\Vietbait.Lablink.Utilities.csproj.GenerateResource.Cache
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Utilities\obj\Debug\Vietbait.Lablink.Utilities.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Utilities\obj\Debug\Vietbait.Lablink.Utilities.pdb

@@ -1,0 +1,11 @@
+E:\VBIT\LABlinkVer2New\trunk\debug\LABLink Config.exe
+E:\VBIT\LABlinkVer2New\trunk\debug\LABLink Config.pdb
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\obj\Debug\Vietbait.Lablink.Config.csprojResolveAssemblyReference.cache
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\obj\Debug\Vietbait.Lablink.Config.FrmConfig.resources
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\obj\Debug\Vietbait.Lablink.Config.frmInsertDevice.resources
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\obj\Debug\Vietbait.Lablink.Config.FrmServiceConfig.resources
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\obj\Debug\Vietbait.Lablink.Config.Properties.Resources.resources
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\obj\Debug\Vietbait.Lablink.Config.csproj.GenerateResource.Cache
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\obj\Debug\LABLink Config.exe.licenses
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\obj\Debug\LABLink Config.exe
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Config\obj\Debug\LABLink Config.pdb

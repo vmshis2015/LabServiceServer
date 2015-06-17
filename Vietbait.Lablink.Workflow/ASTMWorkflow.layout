@@ -1,0 +1,169 @@
+﻿<StateMachineWorkflowDesigner xmlns:ns0="clr-namespace:System.Drawing;Assembly=System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Size="1059, 638" AutoSizeMargin="16, 24" AutoSize="False" Location="30, 30" Name="ASTMWorkflow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow">
+	<StateMachineWorkflowDesigner.Designers>
+		<StateDesigner Size="166, 110" AutoSizeMargin="16, 24" AutoSize="False" Location="507, 263" Name="Idle">
+			<StateDesigner.Designers>
+				<StateInitializationDesigner Name="stateInitializationIdle" Size="150, 123" Location="476, 135">
+					<StateInitializationDesigner.Designers>
+						<CodeDesigner Name="codeActivityInit" Size="130, 41" Location="486, 198" />
+					</StateInitializationDesigner.Designers>
+				</StateInitializationDesigner>
+				<EventDrivenDesigner Name="GetQueryEvent" Size="150, 258" Location="484, 148">
+					<EventDrivenDesigner.Designers>
+						<HandleExternalEventActivityDesigner Name="HandleGetQueryEvent" Size="130, 41" Location="494, 211" />
+						<CallExternalMethodActivityDesigner Name="SendENQ" Size="130, 41" Location="494, 271" />
+						<SetStateDesigner Name="setStateSendRequest" Size="130, 56" Location="494, 331" />
+					</EventDrivenDesigner.Designers>
+				</EventDrivenDesigner>
+			</StateDesigner.Designers>
+		</StateDesigner>
+		<StateDesigner Size="211, 116" AutoSizeMargin="16, 24" AutoSize="False" Location="79, 477" Name="ReceiveData">
+			<StateDesigner.Designers>
+				<StateInitializationDesigner Name="stateInitializationReceiveData" Size="150, 123" Location="87, 508">
+					<StateInitializationDesigner.Designers>
+						<CodeDesigner Name="codeReceiveDataInittialization" Size="130, 41" Location="97, 571" />
+					</StateInitializationDesigner.Designers>
+				</StateInitializationDesigner>
+				<EventDrivenDesigner Name="GetWrongFrameEvent" Size="150, 258" Location="87, 532">
+					<EventDrivenDesigner.Designers>
+						<HandleExternalEventActivityDesigner Name="handleGetWrongFrame" Size="130, 41" Location="97, 595" />
+						<CallExternalMethodActivityDesigner Name="SendNAK" Size="130, 41" Location="97, 655" />
+						<SetStateDesigner Name="setBackReceiveData" Size="130, 56" Location="97, 715" />
+					</EventDrivenDesigner.Designers>
+				</EventDrivenDesigner>
+				<EventDrivenDesigner Name="GetRightFrameEvent" Size="150, 258" Location="87, 556">
+					<EventDrivenDesigner.Designers>
+						<HandleExternalEventActivityDesigner Name="handleGetRightFrame" Size="130, 41" Location="97, 619" />
+						<CallExternalMethodActivityDesigner Name="SendACK2" Size="130, 41" Location="97, 679" />
+						<SetStateDesigner Name="setBackReceiveData2" Size="130, 56" Location="97, 739" />
+					</EventDrivenDesigner.Designers>
+				</EventDrivenDesigner>
+			</StateDesigner.Designers>
+		</StateDesigner>
+		<StateDesigner Size="193, 80" AutoSizeMargin="16, 24" Location="348, 157" Name="InitWorkflow">
+			<StateDesigner.Designers>
+				<StateInitializationDesigner Name="stateInitializationWorkflow" Size="150, 183" Location="356, 188">
+					<StateInitializationDesigner.Designers>
+						<CodeDesigner Name="InitActivity" Size="130, 41" Location="366, 251" />
+						<SetStateDesigner Name="setStateIdle" Size="130, 41" Location="366, 311" />
+					</StateInitializationDesigner.Designers>
+				</StateInitializationDesigner>
+			</StateDesigner.Designers>
+		</StateDesigner>
+		<StateDesigner Size="215, 136" AutoSizeMargin="16, 24" Location="673, 502" Name="SendRequest">
+			<StateDesigner.Designers>
+				<StateInitializationDesigner Name="stateInitializationSendRequest" Size="150, 123" Location="681, 533">
+					<StateInitializationDesigner.Designers>
+						<CodeDesigner Name="codeInitializationSendRequest" Size="130, 41" Location="691, 596" />
+					</StateInitializationDesigner.Designers>
+				</StateInitializationDesigner>
+				<EventDrivenDesigner Name="GetACKEvent" Size="150, 198" Location="681, 557">
+					<EventDrivenDesigner.Designers>
+						<HandleExternalEventActivityDesigner Name="HandleGetACKEvent" Size="130, 41" Location="691, 620" />
+						<SetStateDesigner Name="SetSendRequest1" Size="130, 56" Location="691, 680" />
+					</EventDrivenDesigner.Designers>
+				</EventDrivenDesigner>
+				<EventDrivenDesigner Name="CloseSessionEvent" Size="150, 243" Location="681, 581">
+					<EventDrivenDesigner.Designers>
+						<HandleExternalEventActivityDesigner Name="HandleCloseSessionEvent" Size="130, 41" Location="691, 644" />
+						<CallExternalMethodActivityDesigner Name="SendEOT" Size="130, 41" Location="691, 704" />
+						<SetStateDesigner Name="setStateActivity1" Size="130, 41" Location="691, 764" />
+					</EventDrivenDesigner.Designers>
+				</EventDrivenDesigner>
+				<EventDrivenDesigner Name="GetNAKEvent" Size="150, 198" Location="681, 605">
+					<EventDrivenDesigner.Designers>
+						<HandleExternalEventActivityDesigner Name="HandleGetNAKEvent" Size="130, 41" Location="691, 668" />
+						<SetStateDesigner Name="setStateSendRequestByNAK" Size="130, 56" Location="691, 728" />
+					</EventDrivenDesigner.Designers>
+				</EventDrivenDesigner>
+			</StateDesigner.Designers>
+		</StateDesigner>
+		<EventDrivenDesigner Name="GetENQEvent" Size="150, 243" Location="38, 61">
+			<EventDrivenDesigner.Designers>
+				<HandleExternalEventActivityDesigner Name="handleGetENQ" Size="130, 41" Location="48, 124" />
+				<CallExternalMethodActivityDesigner Name="SendACK" Size="130, 41" Location="48, 184" />
+				<SetStateDesigner Name="setReceiveData" Size="130, 41" Location="48, 244" />
+			</EventDrivenDesigner.Designers>
+		</EventDrivenDesigner>
+		<EventDrivenDesigner Name="GetEOTEvent" Size="150, 183" Location="38, 85">
+			<EventDrivenDesigner.Designers>
+				<HandleExternalEventActivityDesigner Name="handleGetEOT" Size="130, 41" Location="48, 148" />
+				<SetStateDesigner Name="setStateActivity3" Size="130, 41" Location="48, 208" />
+			</EventDrivenDesigner.Designers>
+		</EventDrivenDesigner>
+	</StateMachineWorkflowDesigner.Designers>
+	<StateMachineWorkflowDesigner.DesignerConnectors>
+		<StateDesignerConnector TargetActivity="ReceiveData" SetStateName="setReceiveData" SourceActivity="ASTMWorkflow" TargetConnectionIndex="0" SourceStateName="ASTMWorkflow" TargetConnectionEdge="Top" SourceConnectionEdge="Right" EventHandlerName="GetENQEvent" SourceConnectionIndex="0" TargetStateName="ReceiveData">
+			<StateDesignerConnector.Segments>
+				<ns0:Point X="153" Y="71" />
+				<ns0:Point X="184" Y="71" />
+				<ns0:Point X="184" Y="477" />
+			</StateDesignerConnector.Segments>
+		</StateDesignerConnector>
+		<StateDesignerConnector TargetActivity="InitWorkflow" SetStateName="setStateActivity3" SourceActivity="ASTMWorkflow" TargetConnectionIndex="0" SourceStateName="ASTMWorkflow" TargetConnectionEdge="Top" SourceConnectionEdge="Right" EventHandlerName="GetEOTEvent" SourceConnectionIndex="1" TargetStateName="InitWorkflow">
+			<StateDesignerConnector.Segments>
+				<ns0:Point X="151" Y="95" />
+				<ns0:Point X="444" Y="95" />
+				<ns0:Point X="444" Y="157" />
+			</StateDesignerConnector.Segments>
+		</StateDesignerConnector>
+		<StateDesignerConnector TargetActivity="SendRequest" SetStateName="setStateSendRequest" SourceActivity="Idle" TargetConnectionIndex="0" SourceStateName="Idle" TargetConnectionEdge="Top" SourceConnectionEdge="Right" EventHandlerName="GetQueryEvent" SourceConnectionIndex="1" TargetStateName="SendRequest">
+			<StateDesignerConnector.Segments>
+				<ns0:Point X="637" Y="328" />
+				<ns0:Point X="780" Y="328" />
+				<ns0:Point X="780" Y="502" />
+			</StateDesignerConnector.Segments>
+		</StateDesignerConnector>
+		<StateDesignerConnector TargetActivity="ReceiveData" SetStateName="setBackReceiveData" SourceActivity="ReceiveData" TargetConnectionIndex="0" SourceStateName="ReceiveData" TargetConnectionEdge="Top" SourceConnectionEdge="Right" EventHandlerName="GetWrongFrameEvent" SourceConnectionIndex="1" TargetStateName="ReceiveData">
+			<StateDesignerConnector.Segments>
+				<ns0:Point X="247" Y="542" />
+				<ns0:Point X="296" Y="542" />
+				<ns0:Point X="296" Y="469" />
+				<ns0:Point X="184" Y="469" />
+				<ns0:Point X="184" Y="477" />
+			</StateDesignerConnector.Segments>
+		</StateDesignerConnector>
+		<StateDesignerConnector TargetActivity="ReceiveData" SetStateName="setBackReceiveData2" SourceActivity="ReceiveData" TargetConnectionIndex="0" SourceStateName="ReceiveData" TargetConnectionEdge="Top" SourceConnectionEdge="Right" EventHandlerName="GetRightFrameEvent" SourceConnectionIndex="2" TargetStateName="ReceiveData">
+			<StateDesignerConnector.Segments>
+				<ns0:Point X="240" Y="566" />
+				<ns0:Point X="296" Y="566" />
+				<ns0:Point X="296" Y="469" />
+				<ns0:Point X="184" Y="469" />
+				<ns0:Point X="184" Y="477" />
+			</StateDesignerConnector.Segments>
+		</StateDesignerConnector>
+		<StateDesignerConnector TargetActivity="Idle" SetStateName="setStateIdle" SourceActivity="InitWorkflow" TargetConnectionIndex="0" SourceStateName="InitWorkflow" TargetConnectionEdge="Top" SourceConnectionEdge="Right" EventHandlerName="stateInitializationWorkflow" SourceConnectionIndex="0" TargetStateName="Idle">
+			<StateDesignerConnector.Segments>
+				<ns0:Point X="535" Y="198" />
+				<ns0:Point X="590" Y="198" />
+				<ns0:Point X="590" Y="263" />
+			</StateDesignerConnector.Segments>
+		</StateDesignerConnector>
+		<StateDesignerConnector TargetActivity="SendRequest" SetStateName="SetSendRequest1" SourceActivity="SendRequest" TargetConnectionIndex="0" SourceStateName="SendRequest" TargetConnectionEdge="Top" SourceConnectionEdge="Right" EventHandlerName="GetACKEvent" SourceConnectionIndex="1" TargetStateName="SendRequest">
+			<StateDesignerConnector.Segments>
+				<ns0:Point X="794" Y="567" />
+				<ns0:Point X="900" Y="567" />
+				<ns0:Point X="900" Y="494" />
+				<ns0:Point X="780" Y="494" />
+				<ns0:Point X="780" Y="502" />
+			</StateDesignerConnector.Segments>
+		</StateDesignerConnector>
+		<StateDesignerConnector TargetActivity="InitWorkflow" SetStateName="setStateActivity1" SourceActivity="SendRequest" TargetConnectionIndex="0" SourceStateName="SendRequest" TargetConnectionEdge="Top" SourceConnectionEdge="Right" EventHandlerName="CloseSessionEvent" SourceConnectionIndex="2" TargetStateName="InitWorkflow">
+			<StateDesignerConnector.Segments>
+				<ns0:Point X="825" Y="591" />
+				<ns0:Point X="900" Y="591" />
+				<ns0:Point X="900" Y="149" />
+				<ns0:Point X="444" Y="149" />
+				<ns0:Point X="444" Y="157" />
+			</StateDesignerConnector.Segments>
+		</StateDesignerConnector>
+		<StateDesignerConnector TargetActivity="SendRequest" SetStateName="setStateSendRequestByNAK" SourceActivity="SendRequest" TargetConnectionIndex="0" SourceStateName="SendRequest" TargetConnectionEdge="Top" SourceConnectionEdge="Right" EventHandlerName="GetNAKEvent" SourceConnectionIndex="3" TargetStateName="SendRequest">
+			<StateDesignerConnector.Segments>
+				<ns0:Point X="794" Y="615" />
+				<ns0:Point X="900" Y="615" />
+				<ns0:Point X="900" Y="494" />
+				<ns0:Point X="780" Y="494" />
+				<ns0:Point X="780" Y="502" />
+			</StateDesignerConnector.Segments>
+		</StateDesignerConnector>
+	</StateMachineWorkflowDesigner.DesignerConnectors>
+</StateMachineWorkflowDesigner>

@@ -1,0 +1,113 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Nhom>
+    <MaNhom>1</MaNhom>
+    <TenNhom>Xuất nhập thông tin</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>2</MaNhom>
+    <TenNhom>Tập tin và thư mục</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>3</MaNhom>
+    <TenNhom>Xác nhận</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>4</MaNhom>
+    <TenNhom>Chuyển đổi</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>5</MaNhom>
+    <TenNhom>Chuỗi</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>6</MaNhom>
+    <TenNhom>Định dạng</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>7</MaNhom>
+    <TenNhom>Toán học</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>8</MaNhom>
+    <TenNhom>Ngày giờ</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>9</MaNhom>
+    <TenNhom>Nhập xuất tập tin</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>10</MaNhom>
+    <TenNhom>Số ngẫu nhiên</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>11</MaNhom>
+    <TenNhom>Đồ họa</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>12</MaNhom>
+    <TenNhom>Registry</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>13</MaNhom>
+    <TenNhom>Chương trình</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>14</MaNhom>
+    <TenNhom>Linh tinh</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>15</MaNhom>
+    <TenNhom>Chuỗi - Thời gian</TenNhom>
+    <Loai>TIP</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>16</MaNhom>
+    <TenNhom>Đồ họa - Multimedia</TenNhom>
+    <Loai>TIP</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>17</MaNhom>
+    <TenNhom>Hệ thống - Mạng</TenNhom>
+    <Loai>TIP</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>18</MaNhom>
+    <TenNhom>Ổ đĩa - Tập tin - Thư mục</TenNhom>
+    <Loai>TIP</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>19</MaNhom>
+    <TenNhom>Cơ sở dữ liệu</TenNhom>
+    <Loai>TIP</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>20</MaNhom>
+    <TenNhom>_LABLink UI</TenNhom>
+    <Loai>TIP</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>21</MaNhom>
+    <TenNhom>Ứng dụng - Form</TenNhom>
+    <Loai>TIP</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>22</MaNhom>
+    <TenNhom>_LABLink Utilities</TenNhom>
+    <Loai>TIP</Loai>
+  </Nhom>
+</NewDataSet>

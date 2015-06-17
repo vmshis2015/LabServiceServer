@@ -1,0 +1,5 @@
+E:\VBIT\LABlinkVer2New\trunk\debug\Vietbait.Lablink.Workflow.dll
+E:\VBIT\LABlinkVer2New\trunk\debug\Vietbait.Lablink.Workflow.pdb
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Workflow\obj\Debug\Vietbait.Lablink.Workflow.csprojResolveAssemblyReference.cache
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Workflow\obj\Debug\Vietbait.Lablink.Workflow.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Lablink.Workflow\obj\Debug\Vietbait.Lablink.Workflow.pdb

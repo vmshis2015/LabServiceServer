@@ -1,0 +1,343 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Nhom>
+    <MaNhom>1</MaNhom>
+    <TenNhom>Xuất nhập thông tin</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>2</MaNhom>
+    <TenNhom>Tập tin và thư mục</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>3</MaNhom>
+    <TenNhom>Xác nhận</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>4</MaNhom>
+    <TenNhom>Chuyển đổi</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>5</MaNhom>
+    <TenNhom>Chuỗi</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>6</MaNhom>
+    <TenNhom>Định dạng</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>7</MaNhom>
+    <TenNhom>Toán học</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>8</MaNhom>
+    <TenNhom>Ngày giờ</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>9</MaNhom>
+    <TenNhom>Nhập xuất tập tin</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>10</MaNhom>
+    <TenNhom>Số ngẫu nhiên</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>11</MaNhom>
+    <TenNhom>Đồ họa</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>12</MaNhom>
+    <TenNhom>Registry</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>13</MaNhom>
+    <TenNhom>Chương trình</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>14</MaNhom>
+    <TenNhom>Linh tinh</TenNhom>
+    <Loai>VB</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>15</MaNhom>
+    <TenNhom>Chuỗi</TenNhom>
+    <Loai>TIP</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>16</MaNhom>
+    <TenNhom>Multimedia</TenNhom>
+    <Loai>TIP</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>17</MaNhom>
+    <TenNhom>Form</TenNhom>
+    <Loai>TIP</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>18</MaNhom>
+    <TenNhom>API TYPE</TenNhom>
+    <Loai>API</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>19</MaNhom>
+    <TenNhom>Registry</TenNhom>
+    <Loai>API</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>20</MaNhom>
+    <TenNhom>Hệ thống</TenNhom>
+    <Loai>TIP</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>21</MaNhom>
+    <TenNhom>Disk - File</TenNhom>
+    <Loai>TIP</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>22</MaNhom>
+    <TenNhom>Đồ họa</TenNhom>
+    <Loai>TIP</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>23</MaNhom>
+    <TenNhom>Mạng</TenNhom>
+    <Loai>TIP</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>24</MaNhom>
+    <TenNhom>Menu</TenNhom>
+    <Loai>API</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>25</MaNhom>
+    <TenNhom>Cơ sở dữ liệu</TenNhom>
+    <Loai>TIP</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>26</MaNhom>
+    <TenNhom>Memory</TenNhom>
+    <Loai>API</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>27</MaNhom>
+    <TenNhom>Các vấn đề khác</TenNhom>
+    <Loai>TIP</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>28</MaNhom>
+    <TenNhom>Window</TenNhom>
+    <Loai>API</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>29</MaNhom>
+    <TenNhom>Ứng dụng</TenNhom>
+    <Loai>TIP</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>30</MaNhom>
+    <TenNhom>System</TenNhom>
+    <Loai>API</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>31</MaNhom>
+    <TenNhom>Graphic</TenNhom>
+    <Loai>API</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>32</MaNhom>
+    <TenNhom>Multimedia</TenNhom>
+    <Loai>API</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>33</MaNhom>
+    <TenNhom>Other</TenNhom>
+    <Loai>API</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>34</MaNhom>
+    <TenNhom>Disk - File</TenNhom>
+    <Loai>API</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>35</MaNhom>
+    <TenNhom>String</TenNhom>
+    <Loai>API</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>36</MaNhom>
+    <TenNhom>Message</TenNhom>
+    <Loai>API</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>37</MaNhom>
+    <TenNhom>Mouse Cursor</TenNhom>
+    <Loai>API</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>38</MaNhom>
+    <TenNhom>Đường viền</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>39</MaNhom>
+    <TenNhom>Nút lệnh</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>40</MaNhom>
+    <TenNhom>Ô chọn</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>41</MaNhom>
+    <TenNhom>Màu sắc</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>42</MaNhom>
+    <TenNhom>ComboBox</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>43</MaNhom>
+    <TenNhom>Kéo thả</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>44</MaNhom>
+    <TenNhom>Thuộc tính tập tin</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>45</MaNhom>
+    <TenNhom>Đường viền mẫu biểu</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>46</MaNhom>
+    <TenNhom>Hiển thị mẫu biểu</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>47</MaNhom>
+    <TenNhom>Vị trí khởi động mẫu biểu</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>48</MaNhom>
+    <TenNhom>Loại mẫu biểu</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>49</MaNhom>
+    <TenNhom>Cửa sổ mẫu biểu</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>50</MaNhom>
+    <TenNhom>Phím</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>51</MaNhom>
+    <TenNhom>ListBox</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>52</MaNhom>
+    <TenNhom>Hộp thông báo</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>53</MaNhom>
+    <TenNhom>Hiển thị hộp thông báo</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>54</MaNhom>
+    <TenNhom>Hồi âm hộp thông báo</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>55</MaNhom>
+    <TenNhom>Linh tinh</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>56</MaNhom>
+    <TenNhom>Nút chuột</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>57</MaNhom>
+    <TenNhom>Con trỏ chuột</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>58</MaNhom>
+    <TenNhom>Chế độ màu in</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>59</MaNhom>
+    <TenNhom>In hai chiều</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>60</MaNhom>
+    <TenNhom>Chiều in</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>61</MaNhom>
+    <TenNhom>Khay trang in</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>62</MaNhom>
+    <TenNhom>Khổ giấy in</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>63</MaNhom>
+    <TenNhom>Chất lượng in</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>64</MaNhom>
+    <TenNhom>Tập tin nguồn</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>65</MaNhom>
+    <TenNhom>Thanh cuộn</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>66</MaNhom>
+    <TenNhom>Hình học</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>67</MaNhom>
+    <TenNhom>Giờ</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+  <Nhom>
+    <MaNhom>68</MaNhom>
+    <TenNhom>Dạng dữ liệu</TenNhom>
+    <Loai>CONST</Loai>
+  </Nhom>
+</NewDataSet>

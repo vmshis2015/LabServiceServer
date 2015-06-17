@@ -1,0 +1,5 @@
+E:\VBIT\LABlinkVer2New\trunk\debug\Vietbait.Server.dll
+E:\VBIT\LABlinkVer2New\trunk\debug\Vietbait.Server.pdb
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Server\obj\Debug\Vietbait.Server.csprojResolveAssemblyReference.cache
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Server\obj\Debug\Vietbait.Server.dll
+E:\VBIT\LABlinkVer2New\trunk\Vietbait.Server\obj\Debug\Vietbait.Server.pdb
